@@ -1,3 +1,4 @@
+# 원본(source): https://github.com/Feynman520/iris-community — 여기서 고치지 말고 원본을 고칩니다.
 name: 고장 신고 (Bug report)
 description: 잘 되던 것이 안 되거나, 설명과 다르게 움직일 때 (Something is broken)
 labels: ["bug"]

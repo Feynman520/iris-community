@@ -10,7 +10,7 @@ IRIS Workspace에 관심을 가져 주셔서 고맙습니다. 의견(Issue)과 �
 |---|---|---|---|
 | 본체 | `d06-p02-iris-face`(IRIS 창) · `d09-p03-iris-installer`(설치 패키지) | 의견(Issue) · **작은 고침 PR** | 기능을 바꾸거나 더하는 PR |
 | 선택 모듈 | `d06-p04-iris-messenger`(메신저) | 의견(Issue) · **작은 고침 PR** | 기능을 바꾸거나 더하는 PR |
-| 운영 | `d09-p05-iris-homepage`(홈페이지) · `d09-p08-iris-hub`(허브) · `.github` | 의견(Issue) · **작은 고침 PR** | 기능을 바꾸거나 더하는 PR |
+| 운영 | `d09-p05-iris-homepage`(홈페이지) · `d09-p08-iris-hub`(허브) · `iris-community`(이 문서가 있는 곳) | 의견(Issue) · **작은 고침 PR** | 기능을 바꾸거나 더하는 PR |
 | 도구 | 문서 자동화 MCP 5개(`d01-p01` ~ `d01-p05`) · `d06-p01-self-improve` | 의견(Issue) · **기능을 포함한 PR**(자기 사본에서) | — |
 
 - **작은 고침**이란 오타, 문서, 번역, 그리고 기능을 바꾸지 않는 명백한 버그 수정을 말합니다.

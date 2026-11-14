@@ -1,8 +1,8 @@
 # IRIS Workspace — 협업 문서 (Community Documents)
 
-> **English summary.** This repository holds the shared community documents for all public IRIS Workspace repositories under this account: how to contribute, how decisions are made, the contributor license agreement, the trademark policy, and the security policy. GitHub shows these files automatically in every repository that does not have its own copy.
+> **English summary.** This repository holds the shared community documents for the public IRIS Workspace repositories listed below: how to contribute, how decisions are made, the contributor license agreement, the trademark policy, and the security policy. Each of those repositories carries a short `CONTRIBUTING.md` and `SECURITY.md` that point here.
 
-IRIS Workspace의 공개 저장소들이 함께 쓰는 안내 문서를 모아 둔 곳입니다. 저장소마다 같은 문서를 따로 두지 않고 여기 한 벌만 둡니다.
+IRIS Workspace의 공개 저장소들이 함께 쓰는 안내 문서를 모아 둔 곳입니다. 문서 원본은 여기 한 벌만 두고, 아래 저장소마다 이곳을 가리키는 짧은 안내(`CONTRIBUTING.md`·`SECURITY.md`)와 Issue·PR 양식을 둡니다.
 
 | 문서 | 무엇을 알려 주나 |
 |---|---|
@@ -19,8 +19,10 @@ IRIS Workspace의 공개 저장소들이 함께 쓰는 안내 문서를 모아 �
 |---|---|
 | 본체 | `d06-p02-iris-face`(IRIS 창) · `d09-p03-iris-installer`(설치 패키지) |
 | 선택 모듈 | `d06-p04-iris-messenger`(메신저) |
-| 운영 | `d09-p05-iris-homepage`(홈페이지) · `d09-p08-iris-hub`(허브) · `.github`(이 저장소) |
+| 운영 | `d09-p05-iris-homepage`(홈페이지) · `d09-p08-iris-hub`(허브) · `iris-community`(이 저장소) |
 | 도구 | `d01-p01-hwp-form-automation-mcp` · `d01-p02-excel-engine-mcp` · `d01-p03-ppt-engine-mcp` · `d01-p04-word-engine-mcp` · `d01-p05-pdf-engine-mcp` · `d06-p01-self-improve` |
+
+`per-repo/` 폴더와 `.github/` 폴더의 파일이 위 저장소마다 들어가는 짧은 안내와 양식의 원본입니다. 고칠 때는 여기서 고칩니다.
 
 코드는 모두 MIT 라이선스입니다. 이름과 로고는 [TRADEMARKS.md](TRADEMARKS.md)를 따릅니다.
 

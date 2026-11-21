@@ -1,0 +1,93 @@
+# 이 양식은 iris-community 저장소에만 둡니다(다른 저장소에 내려 넣지 않습니다).
+name: 커뮤니티 판 소개 신청 (Community build listing)
+description: 내가 고친 IRIS Workspace를 홈페이지 커뮤니티 쪽에 소개해 달라고 신청합니다 (Ask to list your modified build on the Community page)
+title: "[커뮤니티 판] "
+labels: ["community-listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        한국어·영어 모두 좋습니다.
+
+        - 홈페이지 커뮤니티 쪽은 사람들이 **자기가 고친 IRIS Workspace**를 소개하는 곳입니다.
+        - 소개는 소개일 뿐입니다. 관리자는 신청한 판을 설치해 보거나 검증하지 않으며, 만들고 배포하고 고장에 답하는 일은 만든 분이 합니다.
+        - 올릴지, 내릴지는 관리자가 정합니다. 조건은 [상표 정책의 「커뮤니티 판」 절](https://github.com/Feynman520/iris-community/blob/main/TRADEMARKS.md)에 있습니다.
+        - 이 글은 누구나 볼 수 있습니다. 실명·연락처·학교 이름은 적지 마세요.
+
+        (A listing is an introduction by the Maintainer, not a verification or endorsement. You maintain and distribute your build. The Maintainer decides what is listed.)
+  - type: dropdown
+    id: request
+    attributes:
+      label: 무엇을 원하시나요 (Request)
+      options:
+        - 새로 소개해 주세요 (New listing)
+        - 소개된 내용을 고쳐 주세요 (Update my listing)
+        - 내려 주세요 (Remove my listing)
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 판의 이름 (Name of your build)
+      description: 이름에는 IRIS를 넣지 않습니다. 예 — 매스
+    validations:
+      required: true
+  - type: input
+    id: oneline
+    attributes:
+      label: 한 줄 소개 (One-line description)
+      description: 누구를 위한 어떤 판인지 한 문장으로. 예 — 수학 선생님을 위해 수식 입력을 편하게 고친 판
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: 무엇을 바꿨나요 (What you changed)
+      description: 공식 판과 다른 점을 세 가지 안팎으로 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: 소스 저장소 주소 (Source repository URL)
+      description: 누구나 볼 수 있는 주소여야 합니다. 커뮤니티 쪽의 「보러 가기」 단추가 이 주소로 갑니다.
+      placeholder: https://github.com/…
+    validations:
+      required: true
+  - type: input
+    id: maker
+    attributes:
+      label: 만든 사람으로 표시할 이름 (Maker name to display)
+      description: GitHub 아이디나 별명. 실명·연락처는 적지 마세요.
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: 미리보기 그림 (Preview images)
+      description: 화면 그림을 한 장 이상 이 칸에 끌어다 놓아 주세요. 사람 이름·학생 정보·대화 내용이 보이지 않게 해 주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    id: conditions
+    attributes:
+      label: 소개 조건 (Listing conditions)
+      description: 새로 소개를 신청할 때는 모두 확인해 주세요.
+      options:
+        - label: IRIS Workspace를 고쳐 만든 판입니다.
+        - label: 소스를 누구나 볼 수 있게 공개했습니다.
+        - label: 저장소 첫 화면(README)에 "IRIS Workspace 기반 커뮤니티 판"과 공식 홈페이지 링크(https://iris-workspace.com)를 적었습니다.
+        - label: 자기 이름과 로고를 쓰고, 업데이트 주소와 앱 식별 이름을 내 것으로 바꿨습니다.
+        - label: 고장 신고를 받는 곳(예 — 내 저장소의 Issue)이 열려 있습니다.
+        - label: 무료로 나눠 주는 판입니다.
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: 동의 (Agreement)
+      options:
+        - label: 위 그림과 설명을 IRIS Workspace 홈페이지에 실어도 되며, 관리자가 문구를 다듬을 수 있습니다.
+          required: true
+        - label: 올릴지와 내릴지는 관리자가 정하며, 소개는 검증이나 보증이 아니라는 점을 압니다.
+          required: true
+        - label: 행동 강령을 지킵니다.
+          required: true

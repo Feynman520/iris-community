@@ -1,6 +1,6 @@
 # 기여 안내 (Contributing)
 
-> **English summary.** Thank you for your interest in IRIS Workspace. Issues and pull requests are welcome in Korean or English. Each repository accepts different kinds of changes — see the table in section 0 before you start. Core repositories (the IRIS window, the installer, the messenger, the homepage, the hub) accept feedback and small fixes only; tool repositories (document MCP servers, self-improve) accept feature pull requests from forks. Pull requests that port the core to another operating system are not accepted at this time. Every pull request needs a signed [CLA](CLA.md) and is merged only by the Maintainer. Report security problems privately — see [SECURITY.md](SECURITY.md).
+> **English summary.** Thank you for your interest in IRIS Workspace. Issues and pull requests are welcome in Korean or English. Each repository accepts different kinds of changes — see the table in section 0 before you start. Core repositories (the IRIS window, the installer, the messenger, the homepage, the hub) accept feedback and small fixes only; tool repositories (document MCP servers, self-improve) accept feature pull requests from forks. Pull requests that port the core to another operating system are not accepted at this time. If you would rather keep your own modified build, you can ask to have it introduced on the official Community page — see the "커뮤니티 판" section of [TRADEMARKS.md](TRADEMARKS.md). Every pull request needs a signed [CLA](CLA.md) and is merged only by the Maintainer. Report security problems privately — see [SECURITY.md](SECURITY.md).
 
 IRIS Workspace에 관심을 가져 주셔서 고맙습니다. 의견(Issue)과 코드(PR, 병합 요청)는 한국어와 영어 모두 받습니다.
 
@@ -53,6 +53,10 @@ IRIS Workspace에 관심을 가져 주셔서 고맙습니다. 의견(Issue)과 �
 | 에이전트가 일하다 부르는 능력인가? | MCP(코드가 실행됨) 또는 스킬(글로 된 절차) |
 
 어디에 해당하는지 모르겠으면 Issue로 물어 주세요.
+
+### 본체를 내 쓰임에 맞게 고쳐 쓰고 싶다면
+
+본체에 PR을 내는 대신 **자기 이름으로 고친 판**을 만들어 나눌 수 있습니다(코드가 MIT 라이선스라 자유입니다). 조건을 갖춘 판은 공식 홈페이지의 커뮤니티 쪽에 **커뮤니티 판**으로 소개해 달라고 신청할 수 있습니다. 조건과 표기는 [TRADEMARKS.md](TRADEMARKS.md)의 「커뮤니티 판」 절에, 신청은 [소개 신청 양식](https://github.com/Feynman520/iris-community/issues/new?template=community-listing.yml)에 있습니다. 소개는 검증이나 보증이 아니며, 올릴지는 관리자가 정합니다.
 
 ## 5. 넣으면 안 되는 것
 

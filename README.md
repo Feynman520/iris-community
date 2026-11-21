@@ -24,6 +24,10 @@ IRIS Workspace의 공개 저장소들이 함께 쓰는 안내 문서를 모아 �
 
 `per-repo/` 폴더와 `.github/` 폴더의 파일이 위 저장소마다 들어가는 짧은 안내와 양식의 원본입니다. 고칠 때는 여기서 고칩니다.
 
+## 커뮤니티 판 소개 신청
+
+IRIS Workspace를 고쳐 만든 자기 판을 공식 홈페이지의 커뮤니티 쪽에 소개하고 싶다면 [소개 신청 양식](https://github.com/Feynman520/iris-community/issues/new?template=community-listing.yml)을 써 주세요. 조건과 표기는 [TRADEMARKS.md](TRADEMARKS.md)의 「커뮤니티 판」 절에 있습니다. 소개는 검증이나 보증이 아니며, 올릴지는 관리자가 정합니다.
+
 코드는 모두 MIT 라이선스입니다. 이름과 로고는 [TRADEMARKS.md](TRADEMARKS.md)를 따릅니다.
 
 GitHub 계정이 없어도 의견을 보낼 수 있습니다: <https://iris-workspace.com/feedback>

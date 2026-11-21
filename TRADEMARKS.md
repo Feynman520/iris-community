@@ -1,6 +1,6 @@
 # 상표 정책 (Trademark Policy)
 
-> **English summary.** The code is MIT-licensed, but the names and logos are not. "IRIS Workspace", "아이리스 워크스페이스", "IRIS" (in the context of this software), the handwritten wordmark, and the official addresses identify the official project. You may refer to the project by name, say your work is compatible ("○○ for IRIS Workspace"), redistribute unmodified official builds, and say your work is "based on IRIS Workspace". You may not use the names or logos for a modified version, pick a name that looks official, or imply endorsement. Modified versions must use their own name, update address, and app identifier. This policy is not legal advice; the marks are not yet registered (™ only).
+> **English summary.** The code is MIT-licensed, but the names and logos are not. "IRIS Workspace", "아이리스 워크스페이스", "IRIS" (in the context of this software), the handwritten wordmark, and the official addresses identify the official project. You may refer to the project by name, say your work is compatible ("○○ for IRIS Workspace"), redistribute unmodified official builds, and say your work is "based on IRIS Workspace". You may not use the names or logos for a modified version, pick a name that looks official, or imply endorsement. Modified versions must use their own name, update address, and app identifier. A modified version that meets the listing conditions may be introduced on the official Community page as a "community build based on IRIS Workspace"; a listing is an introduction by the Maintainer, not a verification or endorsement, and the maker remains responsible for maintaining and distributing it. This policy is not legal advice; the marks are not yet registered (™ only).
 
 ## 왜 이 문서가 있나
 
@@ -41,6 +41,46 @@ IRIS Workspace의 **코드는 MIT 라이선스**라 누구나 쓰고 고치고 �
 1. 자기 이름과 로고를 씁니다.
 2. **업데이트 주소와 앱 식별 이름을 바꿉니다.** 그대로 두면 사용자의 PC가 공식 업데이트와 섞여 고장 날 수 있습니다.
 3. "IRIS Workspace를 바탕으로 만듦"이라고 적는 것은 좋습니다.
+
+## 커뮤니티 판 — 홈페이지에 소개되는 고친 판
+
+IRIS Workspace를 자기 쓰임에 맞게 고친 판을 만들었다면, 공식 홈페이지의 커뮤니티 쪽(<https://iris-workspace.com/community>)에 소개해 달라고 신청할 수 있습니다. 그곳에 소개된 판을 **커뮤니티 판**이라고 부릅니다.
+
+### 소개의 뜻
+
+- 소개는 **소개일 뿐**입니다. 관리자는 커뮤니티 판을 설치해 보거나 검증하지 않습니다.
+- 만들고, 배포하고, 고장에 답하는 일은 모두 **그 판을 만든 사람**이 합니다.
+- 올릴지, 내릴지는 **관리자가 정합니다.** 조건을 모두 갖추었더라도 소개하지 않을 수 있고, 소개한 뒤에도 내릴 수 있습니다.
+
+### 소개 조건
+
+| 번호 | 조건 |
+|---|---|
+| 1 | IRIS Workspace를 고쳐 만든 판일 것. 많이 고쳤는지 조금 고쳤는지는 따지지 않습니다. |
+| 2 | 소스가 누구나 볼 수 있게 공개되어 있을 것. |
+| 3 | 아래 「표기」를 저장소 첫 화면(README)에 적을 것. |
+| 4 | 자기 이름과 로고를 쓰고, 업데이트 주소와 앱 식별 이름을 자기 것으로 바꿀 것. |
+| 5 | 고장 신고를 받는 곳(예: 그 저장소의 Issue)이 열려 있을 것. |
+| 6 | 미리보기 그림 한 장 이상과 "무엇을 바꿨는지" 설명이 있을 것. |
+
+- 지금은 **무료로 나눠 주는 판만** 소개합니다.
+- 공식 판인 것처럼 보이게 꾸민 판, 남에게 해가 되는 판(예: 개인정보를 몰래 모으는 판, 비밀 열쇠가 든 판), [행동 강령](CODE_OF_CONDUCT.md)을 어기는 판은 소개하지 않습니다.
+- 마지막 갱신이 1년을 넘으면 "쉬는 중"이라고 표시하고, 링크가 끊기면 내립니다.
+
+### 표기
+
+저장소 첫 화면(README)에 다음 두 가지를 적습니다. 프로그램 안의 정보 화면에도 적으면 더 좋습니다.
+
+1. **"IRIS Workspace 기반 커뮤니티 판"** (영어: "A community build based on IRIS Workspace")
+2. 공식 홈페이지 링크: <https://iris-workspace.com>
+
+- 이 표기는 판의 **설명**입니다. 판의 **이름**에는 여전히 IRIS를 넣지 않습니다(예: 이름은 "매스", 설명은 "IRIS Workspace 기반 커뮤니티 판").
+- "커뮤니티 에디션(Community Edition)"이라고 쓰지 않습니다. 그 말은 흔히 공식 무료 판을 가리켜 오해를 부릅니다.
+- "IRIS Workspace 홈페이지 커뮤니티 쪽에 소개됨"이라고 사실대로 말하는 것은 괜찮습니다. "공식 인증", "공식 추천"처럼 관리자가 보증한 것으로 읽히는 말은 쓰지 않습니다.
+
+### 신청
+
+[커뮤니티 판 소개 신청 양식](https://github.com/Feynman520/iris-community/issues/new?template=community-listing.yml)으로 신청합니다. 소개된 내용을 고치거나 내려 달라는 요청도 같은 양식으로 받습니다.
 
 ## 허락이 필요할 때
 
